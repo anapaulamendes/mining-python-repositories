@@ -1,4 +1,5 @@
 
+
 # Mineração de Repositórios da Organização Python no Github
 
 
@@ -50,3 +51,54 @@ https://github.com/python
 ## Seleção de participantes:
 
 Por conveniência. O grupo de participantes será composto de todos aqueles que tenham realizado qualquer tipo de atividade em pelo menos um dos repositórios da organização Python.
+
+
+## Instalação:
+
+Para instalar os pacotes necessários, execute:
+
+```pip install -r requirements.txt```
+
+## Uso:
+
+Para construir os arquivos json que serão utilizados para as métricas, execute os seguintes scripts:
+
+*Minera todos os repositórios da organização Python e salva todos os commits, comments e issue_comments
+nas pastas com os mesmos nomes, respectivamente.*
+`python src/mine_repos.py`
+
+*Salva as informações de cada membro do repositório em members.json.*
+`python src/save_members_json.py`
+
+*Salva as informações de cada repositório no csv: repositories.csv*
+`python src/save_repo_info.py`
+
+*Salva as informações de todos os membros do repositório através de uma raspagem por selenium*
+`python src/scrape_members.py`
+
+*Exibe o número de commits por repositório*
+`python src/statistics_by_repo.py`
+
+*Exibe algumas estatísticas sobre os membros do repositório e salva em json: classified_members
+a classificação dos membros por gênero em json, para ser usado como dicionário depois.*
+`python src/statistics_members.py`
+
+*Salva todos os json de contribuidores de repositórios na pasta: contributors*
+`python src/contributors_by_repo.py`
+
+*Classifica os contribuidores de repositorios por gênero e salva no json: classified_contributors_commits.json
+para uso em dicionário depois.*
+`python src/classified_contributors.py`
+
+*Classifica os membros do repositório por gênero e salva no csv: members.csv*
+`python src/classify_members_to_csv.py`
+
+*Classifica os repositórios em técnicos e não técnicos e salva no json: classified_repos.json
+para ser usado como dicionário depois.*
+`python src/classify_repos_to_json.py`
+
+*Carrega para um json os contribuidores que não são da organização*
+`python src/not_members_to_json.py`
+
+*Responde as questões da pesquisa*
+`python src/metrics.py`
