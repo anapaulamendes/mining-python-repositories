@@ -165,8 +165,8 @@ print("Porcentagem de gênero não indentificado: {}%".format(mid_not_indentifie
 
 """
 Q5)
-Quantas mulheres da organização contribuiram tecnicamente nos repositórios da
-organização Python no Github sobre o total de contribuições?
+Qual a porcentagem de contribuições técnicas de mulheres da
+organização nos repositórios da organização Python no Github sobre o total de contribuições?
 """
 woman_count = 0
 man_count = 0
@@ -200,8 +200,8 @@ print("Porcentagem total de contribuições de mulheres: {}%".format((woman_coun
 
 """
 Q6)
-Quantas mulheres da organização contribuiram não tecnicamente nos repositórios da
-organização Python no Github sobre o total de contribuições?
+Qual a porcentagem de contribuições não técnicas de mulheres da organização nos repositórios
+da organização Python no Github sobre o total de contribuições?
 """
 woman_count = 0
 man_count = 0
@@ -235,7 +235,7 @@ print("Porcentagem total de contribuições de mulheres: {}%".format((woman_coun
 
 """
 Q7)
-Quantas mulheres que não estão na organização contribuiram tecnicamente nos repositórios da
+Qual a porcentagem de contribuições técnicas de mulheres que não estão na organização nos repositórios da
 organização Python no Github sobre o total de contribuições?
 """
 woman_count = 0
@@ -270,7 +270,7 @@ print("Porcentagem total de contribuições de mulheres: {}%".format((woman_coun
 
 """
 Q8)
-Quantas que não estão na organização contribuiram não tecnicamente nos repositórios da
+Qual a porcentagem de contribuições não técnicas de mulheres que não estão na organização nos repositórios da
 organização Python no Github sobre o total de contribuições?
 """
 woman_count = 0
