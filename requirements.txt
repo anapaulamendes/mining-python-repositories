@@ -1,0 +1,4 @@
+nltk==3.5
+python-decouple==3.3
+requests==2.24.0
+selenium==3.141.0
